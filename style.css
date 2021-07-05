@@ -5,6 +5,9 @@ body{
 .menuBar {
     overflow: hidden;
     background-color: black;
+    border: solid crimson;
+    border-radius: 3px;
+    border-width: 3px;
   }
   
   a{
@@ -21,7 +24,6 @@ body{
     float: right;
     padding: 8px 21px 8px 21px;
     margin: 7px 5px 7px 5px;
-    border: none;
     border-radius: 10px;
     border: solid green;
     font-size: 15px;
@@ -34,4 +36,33 @@ body{
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.secOne{
+    display: flex;
+    margin-left: -55px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+.widthHalf{
+    margin: 30px 0px 0px 100px;
+    width: 50%;
+}
+.widthHalf img{
+    width: 85%;
+    margin: 10px 0px 0px 25px;
+}
+h1{
+    font-size: 40px;
+}
+.colorOrange{
+    color: crimson;
+}
+
+.Lbutton{
+    color: white;
+    text-decoration:white;
+    background-color: green ;
+    border: olivedrab;
+    border-radius: 5px;
+    padding: 0px 15px 0px 15px;
 }
