@@ -43,6 +43,11 @@ body{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
+.SecSecnd{
+    margin-left: -55px;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
 .widthHalf{
     margin: 30px 0px 0px 100px;
     width: 50%;
@@ -65,4 +70,16 @@ h1{
     border: olivedrab;
     border-radius: 5px;
     padding: 0px 15px 0px 15px;
+}
+.secSecnd{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.estraMargin{
+    margin: 50px 0px 0px 70px;
+    font-size: 40px;
+}
+.estra-Margin{
+    margin: 0px 0px 0px 70px;
 }
