@@ -1,0 +1,37 @@
+body{
+    font-family: 'Mitr', sans-serif;
+    margin: 0px;
+}
+.menuBar {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 0px 25px 0px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 590;
+    margin: 7px 5px 7px 5px;
+  }
+  input{
+    float: right;
+    padding: 8px 21px 8px 21px;
+    margin: 7px 5px 7px 5px;
+    border: none;
+    border-radius: 10px;
+    border: solid green;
+    font-size: 15px;
+}
+.dcolor{
+    background-color: green;
+    color: white;
+    padding-left: 30px;
+    padding-right: 40px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
