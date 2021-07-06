@@ -102,7 +102,7 @@ h3{
 }
 .triImageSectn{
     display: flex;
-    margin-top:10% ;
+    margin-top:7% ;
 }
 .triImages{
     width: 33%;
@@ -112,9 +112,40 @@ h3{
     padding-left: 30px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    border-left: solid 5px;
+    border-image: linear-gradient(yellow,red);
+    border-image-slice: 1;
+    border-image-width: 0px 0px 0px 2px;
 }
 .img2{
     width: 90%;
     margin-top: 5%;
     border: solid white;
     border-radius: 7px;
+}
+.subsSectn{
+    display: flex;
+    padding: 25px 5px 25px 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin: 20px 100px 10px 100px;
+    margin-bottom: 50px; 
+ 
+}
+.subscribers{
+    width: 39%;
+    padding: 0px 0px 0px 130px;
+    font-size: 25px;
+}
+.subsQntity{
+    font-size: 12px;
+    font-weight: 400;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
